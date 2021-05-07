@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   get 'no_food_meal', to: 'welcome#no_food_meal'
+  get 'max_foods', to: 'welcome#max_foods'
 end
